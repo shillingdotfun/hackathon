@@ -28,7 +28,7 @@ Here you’ll find an overview of the system, its architecture, and direct links
 The system is composed of four integrated repositories:
 
 1. **Backend (Laravel API)** – Handles business logic, authentication, and blockchain interactions.
-2. **Frontend (React + TypeScript + Vite)** – Modern, fast user interface.
+2. **Frontend (React + TypeScript + Vite)** – Easy to scale, fast user interface.
 3. **Infrastructure (IaC)** – Infrastructure as Code to deploy the environment on AWS.
 4. **AWS Lambda (X API)** – Independent serverless module managing integration with the X (Twitter) API.
 
@@ -58,10 +58,10 @@ The system is composed of four integrated repositories:
 
 | Component | Description | Repository |
 |------------|--------------|-------------|
-| 🧠 **Backend (Laravel)** | Central API with authentication, endpoints, and Solana connectivity. | [🔗 Backend Repository](https://github.com/shillingdotfun/backend) |
-| 💻 **Frontend (React + TypeScript + Vite)** | UI connected to the API and Solana wallet. | [🔗 Frontend Repository](https://github.com/shillingdotfun/frontend) |
-| ☁️ **Infrastructure (IaC)** | AWS deployment using Terraform/CDK. | [🔗 IaC Repository](#) |
-| 🐦 **AWS Lambda (X API)** | Serverless microservice handling X (Twitter) API operations used to verify users. | [🔗 Lambda Repository](#) |
+| 🧠 **Backend (Laravel)** | Central API with authentication, system endpoints, data collectors, and Solana connectivity (used to verify each transaction made from the frontend). | [🔗 Backend Repository](https://github.com/shillingdotfun/backend) |
+| 💻 **Frontend (React + TypeScript + Vite)** | UI connected to the backend API, Solana (using the solana ts sdk) and Privy. | [🔗 Frontend Repository](https://github.com/shillingdotfun/frontend) |
+| ☁️ **Infrastructure (IaC)** | AWS deployment using Terraform. | [🔗 IaC Repository](https://github.com/shillingdotfun/iac) |
+| 🐦 **AWS Lambda (X API)** | Serverless microservice handling X (Twitter) API operations used to verify users. | [🔗 Lambda Repository](https://github.com/shillingdotfun/x-api-client) |
 
 ---
 
@@ -70,7 +70,7 @@ The system is composed of four integrated repositories:
 - **Blockchain:** Solana  
 - **Backend:** Laravel 11, PHP 8.2, MySQL  
 - **Frontend:** React, TypeScript, Vite, TailwindCSS  
-- **Infrastructure:** AWS (Lambda, S3, EC2), Terraform  
+- **Infrastructure:** AWS (Lambda, S3, EC2, etc...), Terraform  
 - **Integrations:** X (Twitter) API, Privy, Solana and Solana Pay
 
 ---
@@ -79,7 +79,7 @@ The system is composed of four integrated repositories:
 
 1. The user connects with their **Solana wallet** (e.g., Phantom).  
 2. From the frontend, they can list active campaigns and raids, create campaigns and raids, join them and earn money shilling.  
-3. The backend processes the action and records the operation on Solana and the whole app.  
+3. The system processes the action and records the operation on Solana and the whole app.  
 
 ---
 
