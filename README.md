@@ -11,6 +11,13 @@
 Welcome to the Attention Capital Market.</b>
 </p>
 
+## 🌐 Product in production mode
+
+You can view a live demo here:  
+👉 [https://shilling.fun](https://shilling.fun)
+
+---
+
 ---
 
 ## 🚀 Overview
@@ -51,10 +58,10 @@ The system is composed of four integrated repositories:
 
 | Component | Description | Repository |
 |------------|--------------|-------------|
-| 🧠 **Backend (Laravel)** | Central API with authentication, endpoints, and Solana connectivity. | [🔗 Backend Repository](https://github.com/youruser/your-backend-repo) |
-| 💻 **Frontend (React + TypeScript + Vite)** | UI connected to the API and Solana wallet. | [🔗 Frontend Repository](https://github.com/youruser/your-frontend-repo) |
-| ☁️ **Infrastructure (IaC)** | AWS deployment using Terraform/CDK. | [🔗 IaC Repository](https://github.com/youruser/your-iac-repo) |
-| 🐦 **AWS Lambda (X API)** | Serverless microservice handling X (Twitter) API operations used to verify users. | [🔗 Lambda Repository](https://github.com/youruser/your-lambda-repo) |
+| 🧠 **Backend (Laravel)** | Central API with authentication, endpoints, and Solana connectivity. | [🔗 Backend Repository](https://github.com/shillingdotfun/backend) |
+| 💻 **Frontend (React + TypeScript + Vite)** | UI connected to the API and Solana wallet. | [🔗 Frontend Repository](https://github.com/shillingdotfun/frontend) |
+| ☁️ **Infrastructure (IaC)** | AWS deployment using Terraform/CDK. | [🔗 IaC Repository](#) |
+| 🐦 **AWS Lambda (X API)** | Serverless microservice handling X (Twitter) API operations used to verify users. | [🔗 Lambda Repository](#) |
 
 ---
 
@@ -81,13 +88,6 @@ The system is composed of four integrated repositories:
 This project was developed for the **Colosseum Hackathon 2025**.
 
 > Built by [@bruno_iykyk](https://x.com/bruno_iykyk) and [@DavidRounders](https://x.com/DavidRounders)
-
----
-
-## 🌐 Product in production mode
-
-You can view a live demo here:  
-👉 [https://shilling.fun](https://shilling.fun)
 
 ---
 
