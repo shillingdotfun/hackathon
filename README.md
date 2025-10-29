@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="./all-colors.gif" alt="shilling.fun Logo" width="200" />
+  <img height="200" src="https://arena.colosseum.org/images/png/ascii-column-left.png">
+  <img src="./all-colors.gif" alt="shilling.fun Logo" width="300" />
+  <img height="200" src="https://arena.colosseum.org/images/png/ascii-column-right.png">
 </p>
 
 <h1 align="center">shilling.fun</h1>
