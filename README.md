@@ -71,7 +71,7 @@ The system is composed of four integrated repositories:
 - **Backend:** Laravel 11, PHP 8.2, MySQL  
 - **Frontend:** React, TypeScript, Vite, TailwindCSS  
 - **Infrastructure:** AWS (Lambda, S3, EC2, etc...), Terraform  
-- **Integrations:** X (Twitter) API, Privy, Solana and Solana Pay
+- **Integrations:** X (Twitter) API, Privy, and Solana Pay
 
 ---
 
